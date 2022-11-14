@@ -1,0 +1,3 @@
+/home/tal/Desktop/Ex1ComputerSystems/cmake-build-debug/CMakeFiles/Ex1.dir
+/home/tal/Desktop/Ex1ComputerSystems/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/tal/Desktop/Ex1ComputerSystems/cmake-build-debug/CMakeFiles/rebuild_cache.dir
