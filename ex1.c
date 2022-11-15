@@ -1,6 +1,5 @@
 // 206960890 Tal Mizrahi
 #include <stdbool.h>
-#include <stdio.h>
 
 /**
  * A function to determine if the machine who runs it using big ar little endian.
@@ -32,9 +31,9 @@ int is_big_endian() {
  */
 int power(int base, int exponent) {
     // Initiating the result to 1.
-    int result = 1;
+    int result = 1, i;
     // Iterating the calculation as the amount of the exponent.
-    for (int i = 0; i < exponent; i++) {
+    for (i = 0; i < exponent; i++) {
         result = result * base;
     }
     return result;
@@ -48,9 +47,9 @@ int magnitude_check(bool bitArray[8]){
     // Declaring the mask to be a constant value of 1.
     const int MASK = 1;
     // Declaring the sum in decimal, and a temp variable to store the numeric value of the bitarray's position.
-    int sum = 0, temp;
+    int sum = 0, temp, i;
     // Iterating the array as the amount of its length - 1.
-    for (int i = 0; i < 7; i++) {
+    for (i = 0; i < 7; i++) {
         // Storing the numeric value of the bitarray's position.
         temp = bitArray[i] & MASK;
         // multiplying the temp by 2 to the power of i's position in the array and adding it to the sum.
