@@ -17,10 +17,10 @@ int is_big_endian() {
     mask = (char *) &num;
     // Checking if it's value is 1111 or not.
     if (*mask == 0b1111)
-        // If it is, return 1 - means little endian.
-        return 1;
-    // Otherwise, return 0 - means big endian.
-    return 0;
+        // If it is, return 0 - means little endian.
+        return 0;
+    // Otherwise, return 1 - means big endian.
+    return 1;
 }
 
 /**
@@ -38,12 +38,13 @@ int power(int base, int exponent) {
     }
     return result;
 }
+
 /**
  * Taking an array representing a byte, and calculating his value in decimal (all bits except the MSB).
  * @param bitArray bitArray array of boolean values representing a byte.
  * @return The decimal value of all bits except the MSB in unsigned notation.
  */
-int magnitude_check(bool bitArray[8]){
+int magnitude_check(bool bitArray[8]) {
     // Declaring the mask to be a constant value of 1.
     const int MASK = 1;
     // Declaring the sum in decimal, and a temp variable to store the numeric value of the bitarray's position.
