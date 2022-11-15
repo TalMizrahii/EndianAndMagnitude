@@ -1,3 +1,4 @@
+// 206960890 Tal Mizrahi
 #include <stdbool.h>
 #include <stdio.h>
 
@@ -38,7 +39,11 @@ int power(int base, int exponent) {
     }
     return result;
 }
-
+/**
+ * Taking an array representing a byte, and calculating his value in decimal (all bits except the MSB).
+ * @param bitArray bitArray array of boolean values representing a byte.
+ * @return The decimal value of all bits except the MSB in unsigned notation.
+ */
 int magnitude_check(bool bitArray[8]){
     // Declaring the mask to be a constant value of 1.
     const int MASK = 1;
