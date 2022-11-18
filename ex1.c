@@ -1,5 +1,6 @@
 // 206960890 Tal Mizrahi
 #include <stdbool.h>
+#include <stdio.h>
 
 /**
  * A function to determine if the machine who runs it using big ar little endian.
@@ -10,13 +11,13 @@
  */
 int is_big_endian() {
     // Creating the variable of type long.
-    long num = 0b00001111000011110000111100001111;
+    short num = 0b0000000000000001;
     // Creating a mask pointer of size char to catch only the last byte.
     char *mask;
     // Casting the last byte of the number (by address).
     mask = (char *) &num;
     // Checking if it's value is 1111 or not.
-    if (*mask == 0b1111)
+    if (*mask == 0b00000001)
         // If it is, return 0 - means little endian.
         return 0;
     // Otherwise, return 1 - means big endian.
