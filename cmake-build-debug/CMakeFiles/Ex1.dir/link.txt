@@ -1,1 +1,0 @@
-/usr/bin/gcc -g CMakeFiles/Ex1.dir/main.c.o CMakeFiles/Ex1.dir/ex1.c.o -o Ex1 
