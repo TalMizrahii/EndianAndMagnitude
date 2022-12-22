@@ -1,4 +1,3 @@
-// 206960890 Tal Mizrahi
 #include <stdbool.h>
 #include <stdio.h>
 
