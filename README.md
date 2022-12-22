@@ -32,13 +32,13 @@ To clone and run this application, you'll need to use [Git](https://git-scm.com)
 
 ```bash
 # Clone this repository.
-$ git clone https://github.com/TalMizrahii/Assembly-Pstrings
+$ git clone https://github.com/TalMizrahii/EndianAndMagnitude
 
 # Go into the repository.
-$ cd Assembly-Pstrings
+$ cd EndianAndMagnitude
 
 # Compile the program.
-$ gcc run_main.s func_select.s pstring.s
+$ gcc 
 
 # Run the program (Linux).
 $ ./a.out
