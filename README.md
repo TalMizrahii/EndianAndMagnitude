@@ -38,7 +38,7 @@ $ git clone https://github.com/TalMizrahii/EndianAndMagnitude
 $ cd EndianAndMagnitude
 
 # Compile the program.
-$ gcc 
+$ gcc main.c ex1.c ex1.h
 
 # Run the program (Linux).
 $ ./a.out
